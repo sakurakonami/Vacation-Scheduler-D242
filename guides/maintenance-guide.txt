@@ -1,0 +1,41 @@
+Vacation Scheduler - Maintenance Guide
+
+DEVELOPMENT SETUP:
+1. Clone repository from GitLab
+2. Open in Android Studio
+3. Sync Gradle dependencies
+4. Build project (Build → Make Project)
+
+TECHNICAL ARCHITECTURE:
+- Language: Java
+- Database: SQLite with Room ORM
+- Architecture: Repository Pattern
+- Minimum SDK: Android 8.0 (API 26)
+
+DATABASE SCHEMA:
+Tables:
+1. users (userId, username, passwordHash, createdAt)
+2. vacations (vacationId, vacationName, hotel, dates)
+3. excursions (excursionId, vacationId, name, date)
+
+BUILDING APK:
+1. Build → Build Bundle(s)/APK(s) → Build APK(s)
+2. APK location: app/build/outputs/apk/debug/
+3. Rename to: vacation-scheduler.apk
+
+CODE STRUCTURE:
+app/src/main/java/com/example/vacationscheduler/
+├── data/      (Database classes)
+├── models/    (Entity classes)
+├── ui/        (Activity classes)
+└── utils/     (Helper classes)
+
+TESTING:
+- Run on Android Emulator
+- Test all CRUD operations
+- Verify notifications work
+- Test login security features
+
+VERSION: D424 Capstone Submission
+DATE: December 2024
+DEVELOPER: Tabitha Harr
