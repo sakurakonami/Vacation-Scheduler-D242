@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vacation Scheduler - WGU Capstone</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; line-height: 1.6; }
+        h1 { color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px; }
+        h2 { color: #2980b9; margin-top: 30px; }
+        .card { background: #f8f9fa; border-radius: 8px; padding: 20px; margin: 20px 0; border-left: 5px solid #3498db; }
+        .btn { display: inline-block; background: #3498db; color: white; padding: 12px 24px; text-decoration: none; border-radius: 5px; margin: 10px 5px; }
+        .warning { background: #fff3cd; border: 1px solid #ffeaa7; padding: 15px; border-radius: 5px; margin: 20px 0; }
+        .feature { background: white; border: 1px solid #e9ecef; padding: 15px; margin: 10px 0; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <h1>🏖️ Vacation Scheduler - Android Application</h1>
+    <p><strong>WGU D424 Capstone Project | Tabitha Harr | Computer Science</strong></p>
+    
+    <div class="warning">
+        <h3>📱 Application Information</h3>
+        <p><strong>Type:</strong> Native Android Application (APK)</p>
+        <p><strong>Platform:</strong> Android 8.0+ (Oreo and above)</p>
+        <p><strong>Installation:</strong> Download APK and install on Android device/emulator</p>
+    </div>
+    
+    <div class="card">
+        <h2>🔗 Download & Source Links</h2>
+        <a href="downloads/vacation-scheduler.apk" class="btn">📥 Download APK File</a>
+        <a href="https://gitlab.com/wgu-gitlab-environment/student-repos/tharr6/d424-software-engineering-capstone" 
+           class="btn" target="_blank">💾 View Source Code (GitLab)</a>
+        <a href="guides/user-guide.pdf" class="btn">📖 User Guide (PDF)</a>
+        <a href="guides/maintenance-guide.pdf" class="btn">🔧 Maintenance Guide (PDF)</a>
+    </div>
+    
+    <h2>✨ Application Features</h2>
+    <div class="feature">
+        <h3>🔐 Security Features</h3>
+        <ul>
+            <li>PBKDF2 password hashing with salt</li>
+            <li>Account lockout after 5 failed attempts</li>
+            <li>Secure session management with SharedPreferences</li>
+        </ul>
+    </div>
+    
+    <div class="feature">
+        <h3>📅 Vacation Management</h3>
+        <ul>
+            <li>Create, Read, Update, Delete vacations</li>
+            <li>Add hotel information and dates</li>
+            <li>Repository pattern with Room database</li>
+        </ul>
+    </div>
+    
+    <div class="feature">
+        <h3>🎯 Excursion Planning</h3>
+        <ul>
+            <li>Add activities to vacations</li>
+            <li>Date-based alerts and notifications</li>
+            <li>One-to-many relationship (Vacation → Excursions)</li>
+        </ul>
+    </div>
+    
+    <div class="card">
+        <h2>📋 Technical Architecture</h2>
+        <p><strong>Language:</strong> Java</p>
+        <p><strong>Database:</strong> SQLite with Room ORM</p>
+        <p><strong>Architecture:</strong> Repository Pattern, DAO Pattern</p>
+        <p><strong>Minimum SDK:</strong> Android 8.0 (API 26)</p>
+        <p><strong>Design Patterns:</strong> Singleton, Repository, Adapter, Observer</p>
+    </div>
+    
+    <div class="card">
+        <h2>📚 Submission Documentation</h2>
+        <p><strong>1. Web App Hosting URL:</strong> https://sakurakonami.github.io/Vacation-Scheduler-D242/</p>
+        <p><strong>2. GitLab Repository:</strong> https://gitlab.com/wgu-gitlab-environment/student-repos/tharr6/d424-software-engineering-capstone</p>
+        <p><strong>3. GitHub Portfolio:</strong> https://github.com/sakurakonami/Vacation-Scheduler-D242</p>
+        <p><strong>4. User Guide:</strong> <a href="guides/user-guide.pdf">guides/user-guide.pdf</a></p>
+        <p><strong>5. Maintenance Guide:</strong> <a href="guides/maintenance-guide.pdf">guides/maintenance-guide.pdf</a></p>
+    </div>
+    
+    <footer style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #eee; color: #7f8c8d;">
+        <p>© 2024 Tabitha Harr | Western Governors University | D424 Software Engineering Capstone</p>
+        <p>Last Updated: December 2024</p>
+    </footer>
+</body>
+</html>
