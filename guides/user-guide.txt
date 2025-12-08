@@ -1,0 +1,32 @@
+Vacation Scheduler - User Guide
+
+INSTALLATION:
+1. Download APK from: https://sakurakonami.github.io/Vacation-Scheduler-D242/
+2. On Android phone: Open downloaded file
+3. Allow "Install from unknown sources" if prompted
+4. Follow installation instructions
+5. Open app from app drawer
+
+GETTING STARTED:
+1. Create account with username and password
+2. Login with your credentials
+3. Tap "+" to add first vacation
+4. Add hotel, dates, and excursions
+
+FEATURES:
+- Secure login with password hashing
+- Create and manage vacations
+- Add excursions with alerts
+- Generate vacation reports
+- Set notifications for dates
+
+TROUBLESHOOTING:
+- Can't login: Check username/password
+- App crashes: Reinstall APK
+- Notifications not working: Check app permissions
+
+System Requirements: Android 8.0+
+Storage: 50MB free space
+Version: 1.0
+Developer: Tabitha Harr
+WGU D424 Capstone Project
