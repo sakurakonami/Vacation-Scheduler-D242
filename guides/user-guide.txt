@@ -7,6 +7,17 @@ INSTALLATION:
 4. Follow installation instructions
 5. Open app from app drawer
 
+1. Open the project in Android Studio
+2. Go to Build → Generate Signed Bundle / APK
+3. Select APK and click Next
+4. Use the following credentials:
+   - Keystore path: [path to .jks file]
+   - Keystore password: [password]
+   - Key alias: [alias]
+   - Key password: [password]
+5. Select release variant
+6. Build the APK
+
 GETTING STARTED:
 1. Create account with username and password
 2. Login with your credentials
