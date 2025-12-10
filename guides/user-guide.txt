@@ -11,10 +11,9 @@ INSTALLATION:
 2. Go to Build → Generate Signed Bundle / APK
 3. Select APK and click Next
 4. Use the following credentials:
-   - Keystore path: [path to .jks file]
-   - Keystore password: [password]
-   - Key alias: [alias]
-   - Key password: [password]
+   - Keystore password: Vacation1
+   - Key alias: TabithaHarr
+   - Key password: Vacation1
 5. Select release variant
 6. Build the APK
 
