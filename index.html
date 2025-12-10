@@ -10,6 +10,24 @@
         .btn { display: inline-block; background: #3498db; color: white; padding: 12px 24px; text-decoration: none; border-radius: 5px; margin: 10px 5px; }
         .warning { background: #fff3cd; border: 1px solid #ffeaa7; padding: 15px; border-radius: 5px; margin: 20px 0; }
         .feature { background: white; border: 1px solid #e9ecef; padding: 15px; margin: 10px 0; border-radius: 5px; }
+        .video-container { 
+            position: relative; 
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0; 
+            overflow: hidden; 
+            max-width: 100%; 
+            background: #000; 
+            margin: 20px 0; 
+            border-radius: 8px;
+        }
+        .video-container iframe { 
+            position: absolute; 
+            top: 0; 
+            left: 0; 
+            width: 100%; 
+            height: 100%; 
+            border: 0;
+        }
     </style>
 </head>
 <body>
@@ -21,6 +39,23 @@
         <p><strong>Type:</strong> Native Android Application (APK)</p>
         <p><strong>Platform:</strong> Android 8.0+ (Oreo and above)</p>
         <p><strong>Installation:</strong> Download APK and install on Android device/emulator</p>
+    </div>
+    
+    <!-- Video Section -->
+    <div class="card">
+        <h2>🎬 Application Demo Video</h2>
+        <p>Watch a demonstration of the Vacation Scheduler Android application:</p>
+        <div class="video-container">
+            <!-- Replace this iframe with your Panopto embed code -->
+            <iframe src="https://wgu.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=0eacb1a4-d206-4d69-ac5f-b3af01432f12&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" 
+                    allowfullscreen 
+                    allow="autoplay">
+            </iframe>
+        </div>
+        <p style="margin-top: 15px; text-align: center;">
+            <a href="https://wgu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0eacb1a4-d206-4d69-ac5f-b3af01432f12" 
+               class="btn" target="_blank">📺 Open Video in New Tab</a>
+        </p>
     </div>
     
     <div class="card">
@@ -80,7 +115,6 @@
     
     <footer style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #eee; color: #7f8c8d;">
         <p>© 2025 Tabitha Harr | Western Governors University | D424 Software Engineering Capstone</p>
-    
     </footer>
 </body>
 </html>
